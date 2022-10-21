@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Montserrat:wght@400;700;900&family=Open+Sans:ital,wght@0,400;0,700;1,600&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="graphics">
+        <div class="logo-banner">
+          <img src="./assets/odin-lined.png" alt="logo" />
+        </div>
+        <div class="image-banner">
+          <img src="./assets/halie-west-25xggax4bSA-unsplash.jpg" alt="fern" />
+        </div>
+      </div>
+      <div class="sign-up-form">
+        <div class="banner-info">
+          <h3>
+            This is not real. You know you need something like this in your life
+            to help you realize your deepest dreams. Sign up <em>now</em> to get
+            started
+          </h3>
+          <h3>You <em>know</em> you want to.</h3>
+        </div>
+        <div class="form-div">
+          <form id="my_form" action="" method="GET">
+            <div class="names formInfo">
+              <div class="name infoDetail">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" />
+              </div>
+              <div class="name infoDetail">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" />
+              </div>
+            </div>
+            <div class="contact formInfo">
+              <div class="infoDetail">
+                <label for="email">Email</label>
+                <input type="email" />
+              </div>
+              <div class="infoDetail">
+                <label for="phone">Phone Number</label>
+                <input type="tel" />
+              </div>
+            </div>
+            <div class="passwords formInfo">
+              <div class="infoDetail">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" />
+              </div>
+              <div class="infoDetail">
+                <label for="confirm_password">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirm_password"
+                  id="confirm_password"
+                />
+              </div>
+            </div>
+            <hr />
+            <div class="bottom-form">
+              <button type="button" class="submit-button" id="submitBtn">
+                Create Account
+              </button>
+            </div>
+          </form>
+          <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
